@@ -1,3 +1,4 @@
+{% include css/bootstrap.min.css %}
 {% include css/home.css %}
 {% include css/cards.css %}
 {% include css/modal.css %}

@@ -7,6 +7,12 @@ url: "http://newportdataproject.org"
 twitter_username: NewportData
 github_username: NewportDataProject
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
 # Build Settings
 markdown: kramdown
 
