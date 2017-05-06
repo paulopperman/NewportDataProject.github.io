@@ -3,12 +3,16 @@
 
 {% include head.html %}
 
-<body>
+<body style="background-color:darkcyan">
 
-<div class="container">
-	<h1>{{ page.name }}</h1>
-	<p>{{ page.description }}</p>
+<div class="section-content">
+	<div class="headcard">
+		<h2>{{ page.name }}</h2>
+	</div>
+
+		<p>{{ page.description }}</p>
 	{{ content }}
+
 </div>
 </body>
 

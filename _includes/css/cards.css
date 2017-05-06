@@ -1,14 +1,76 @@
+
+/*
 .card{
-    width: 300px;
+    min-width: 300px;
     background-color: white;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px solid darkcyan;
-    min-height: 300px;
+    min-height: 150px;
     padding: 10px;
     margin: 10px;
 }
+*/
 
+.card{
+    min-width: 300px;
+    background-color: lightcyan;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    min-height: 150px;
+    padding: 5px;
+    margin: 40px;
+    border-radius: 15px;
+    color: #4c4c4c;
+}
+
+.card a {
+	text-decoration: none;
+	color: #1c617c;
+}
+
+.card a:hover {
+	color: darkblue;
+}
+
+.card a:visited {
+	color: lightblue;
+}
+
+.card .content {
+	max-width: 500px;
+	margin: auto;
+	}
+
+.card .content p {
+	text-align: center;
+	}
+
+.card h2 {
+	padding: 5px;
+	max-width: 200px;
+	margin: auto;
+	border-bottom: 2px solid orangered;
+	text-align: center;
+	}
+
+.card ul {
+	text-align: left;
+	max-width: 500px;
+	}
+
+.card ul li {
+	padding: 3px;
+	}
+
+#mainbox {
+	box-sizing: border-box;
+	justify-content: center;
+	max-width: 720px;
+	margin: auto;
+	align-content: center;
+	}
+/*
 #mainbox{
     box-sizing: border-box;
     justify-content: center;
@@ -17,6 +79,8 @@
     padding-bottom: 5%;
     padding-top: 5%;
 }
+*/
+
 
 /* Dropdown Button */
 .dropbtn {
